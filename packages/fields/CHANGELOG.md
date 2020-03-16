@@ -1,5 +1,16 @@
 # @keystonejs/fields
 
+## 7.0.1
+
+### Patch Changes
+
+- [`1d9c6762`](https://github.com/keystonejs/keystone/commit/1d9c6762d32409c71da6a68a083a81197c35aac3) [#2525](https://github.com/keystonejs/keystone/pull/2525) Thanks [@jesstelford](https://github.com/jesstelford)! - Refactored `matchFilter` to use named args (via an object) which makes understanding test code easier.
+
+- Updated dependencies [[`51546e41`](https://github.com/keystonejs/keystone/commit/51546e4142fb8c66cfc413479c671a59618f885b), [`1d9c6762`](https://github.com/keystonejs/keystone/commit/1d9c6762d32409c71da6a68a083a81197c35aac3), [`fb510d67`](https://github.com/keystonejs/keystone/commit/fb510d67ab124d8c1bda1884fa2a0d48262b5e4d)]:
+  - @keystonejs/utils@5.3.0
+  - @keystonejs/test-utils@6.0.0
+  - @keystonejs/build-field-types@5.2.3
+
 ## 7.0.0
 
 ### Major Changes
