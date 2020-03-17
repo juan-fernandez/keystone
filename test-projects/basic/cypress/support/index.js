@@ -13,6 +13,8 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+import '@undefinedlabs/scope-agent/cypress/support';
+
 // Import commands.js using ES2015 syntax:
 import './commands';
 
