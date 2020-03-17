@@ -1,0 +1,6 @@
+instrumentation:
+  enabled: true
+  http:
+    payload: true
+  db:
+    statement_values: true
