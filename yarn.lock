@@ -3692,10 +3692,10 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
-"@undefinedlabs/scope-agent@^0.4.0-beta.11":
-  version "0.4.0-beta.11"
-  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.4.0-beta.11.tgz#ce22f14c38d2a81f423ecce31c169cd9fd57a769"
-  integrity sha512-KNTA4lHN6Clmm/NbD6U5UOLYCe7gxs98sSe6e6nq7D0A8jbqmX8ptxO9BLg4T2wrztfBpN6vfWShQR/7KToMAA==
+"@undefinedlabs/scope-agent@^0.4.0-beta.12":
+  version "0.4.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.4.0-beta.12.tgz#b1d2d740aa01496ee1b26bba8792fba23a42a298"
+  integrity sha512-QbdVC3uJnpuCOGk5QAeFunQgzjCwOzpehQcXb79Ml32DHBA7EEADtaAf14kcPRXwRc4Csg+7idiigNvCCxb9YQ==
   dependencies:
     "@hapi/sntp" "^3.1.2"
     axios "^0.19.0"
