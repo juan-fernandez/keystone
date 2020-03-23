@@ -3692,10 +3692,10 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
-"@undefinedlabs/scope-agent@^0.4.0-beta.14":
-  version "0.4.0-beta.14"
-  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.4.0-beta.14.tgz#7054b36541ca87e1755c0f47a560927bb12d2eb5"
-  integrity sha512-yeRahf/52nnN/HoH3j4i62wmD41AqCPN5HHkjRf9r+QG7J09yBb818JK/FzzKVHIfhMUew7MnBy+Xjo8Al113Q==
+"@undefinedlabs/scope-agent@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@undefinedlabs/scope-agent/-/scope-agent-0.4.0.tgz#aadece2711de499b35ffefb04e604094fdfa0fb4"
+  integrity sha512-WuOkDRbodYOTgZ22Y+HNVhEcX4rYXCd92HrsV8yWy7WRqUTjiNFFsA+R+ZgnA3MRoo1N781e/HtY+EkQnpCK+w==
   dependencies:
     "@hapi/sntp" "^3.1.2"
     axios "^0.19.0"
@@ -3704,7 +3704,6 @@
     jest-runner "^24.9.0"
     js-yaml "^3.13.1"
     lodash.get "^4.4.2"
-    msgpack-lite "^0.1.26"
     pako "^1.0.11"
     require-in-the-middle "^5.0.3"
     semver "^7.1.3"
@@ -9463,11 +9462,6 @@ eval@^0.1.4:
   dependencies:
     require-like ">= 0.1.1"
 
-event-lite@^0.1.1:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/event-lite/-/event-lite-0.1.2.tgz#838a3e0fdddef8cc90f128006c8e55a4e4e4c11b"
-  integrity sha512-HnSYx1BsJ87/p6swwzv+2v6B4X+uxUteoDfRxsAb1S1BePzQqOLevVmkdA15GHJVd9A9Ok6wygUR18Hu0YeV9g==
-
 event-source-polyfill@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/event-source-polyfill/-/event-source-polyfill-1.0.5.tgz#b34be2740a685a8dc65ae750065fc983538ffcfe"
@@ -12539,7 +12533,7 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
-ieee754@1.1.13, ieee754@^1.1.4, ieee754@^1.1.8:
+ieee754@1.1.13, ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
   integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
@@ -12866,11 +12860,6 @@ inquirer@^7.0.0:
     string-width "^4.1.0"
     strip-ansi "^5.1.0"
     through "^2.3.6"
-
-int64-buffer@^0.1.9:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/int64-buffer/-/int64-buffer-0.1.10.tgz#277b228a87d95ad777d07c13832022406a473423"
-  integrity sha1-J3siiofZWtd30HwTgyAiQGpHNCM=
 
 internal-ip@^3.0.1:
   version "3.0.1"
@@ -16653,16 +16642,6 @@ ms@2.1.2, ms@^2.1.1, ms@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
-
-msgpack-lite@^0.1.26:
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/msgpack-lite/-/msgpack-lite-0.1.26.tgz#dd3c50b26f059f25e7edee3644418358e2a9ad89"
-  integrity sha1-3TxQsm8FnyXn7e42REGDWOKprYk=
-  dependencies:
-    event-lite "^0.1.1"
-    ieee754 "^1.1.8"
-    int64-buffer "^0.1.9"
-    isarray "^1.0.0"
 
 multicast-dns-service-types@^1.1.0:
   version "1.1.0"
