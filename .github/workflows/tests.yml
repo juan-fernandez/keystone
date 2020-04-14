@@ -4,6 +4,13 @@ on: push
 
 jobs:
   build:
+    services:
+      postgres:
+        image: postgres:11.5
+        env:
+          POSTGRES_DB: keystone
+        ports:
+          - 5432:5432
     env:
       SCOPE_DSN: ${{secrets.SCOPE_DSN}}
     runs-on: ubuntu-latest
