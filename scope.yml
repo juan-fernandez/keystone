@@ -1,3 +1,5 @@
+code_path:
+  enabled: true
 instrumentation:
   enabled: true
   http:
