@@ -53,6 +53,7 @@
     "@manypkg/cli": "^0.11.0",
     "@preconstruct/cli": "^1.1.2",
     "@types/jest": "^25.1.2",
+    "@undefinedlabs/scope-agent": "^0.5.0",
     "all-contributors-cli": "^6.2.0",
     "apollo-client": "^2.6.8",
     "babel-eslint": "^10.0.1",
@@ -181,7 +182,14 @@
   },
   "jest": {
     "setupFilesAfterEnv": [
-      "./jest/setup.js"
+      "./jest/setup.js",
+      "@undefinedlabs/scope-agent/jest/setupTests"
+    ],
+    "testRunner": "@undefinedlabs/scope-agent/jest/testRunner",
+    "globalSetup": "@undefinedlabs/scope-agent/jest/globalSetup",
+    "collectCoverage": true,
+    "forceCoverageMatch": [
+      "**/*.test.js"
     ],
     "testEnvironment": "node",
     "testPathIgnorePatterns": [

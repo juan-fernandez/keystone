@@ -7,12 +7,14 @@
 // You can read more here:
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
+const { initCypressPlugin } = require('@undefinedlabs/scope-agent/cypress/plugin');
 
-module.exports = (on, config) => {
+module.exports = async (on, config) => {
   // Make env vars available to cypress tests via `Cypress.env()`
   config.env = process.env;
 
   config.baseUrl = `http://localhost:${process.env.PORT}`;
 
-  return config;
+  const newConfig = await initCypressPlugin(on, config);
+  return newConfig;
 };

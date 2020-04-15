@@ -1,0 +1,8 @@
+code_path:
+  enabled: true
+instrumentation:
+  enabled: true
+  http:
+    payloads: true
+  db:
+    statement_values: true

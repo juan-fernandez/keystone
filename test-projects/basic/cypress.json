@@ -2,5 +2,7 @@
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
     "configFile": "multi-reporter-config.json"
-  }
+  },
+  "supportFile": "cypress/support/index.js",
+  "pluginsFile": "cypress/plugins/index.js"
 }
