@@ -8,8 +8,8 @@ jobs:
       postgres:
         image: postgres:11.5
         env:
-          POSTGRES_DB: circle_test
-          POSTGRES_USER: root
+          POSTGRES_DB: keystone
+          POSTGRES_USER: runner
         ports:
           - 5432:5432
     env:
