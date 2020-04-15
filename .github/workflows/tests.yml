@@ -9,8 +9,7 @@ jobs:
         image: postgres:11.5
         env:
           POSTGRES_DB: circle_test
-          POSTGRES_USER: keystone5
-          POSTGRES_PASSWORD: k3yst0n3
+          POSTGRES_USER: root
         ports:
           - 5432:5432
     env:
